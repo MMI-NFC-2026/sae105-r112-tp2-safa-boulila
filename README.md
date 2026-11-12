@@ -194,8 +194,8 @@ L'usage de la virgule permet de regrouper deux sélecteurs pour la même règle 
 
 Ajouter à votre code des commentaires reprenant les explications données dans ce fichier.
 
-- HTML : `<!-- içi le commentaire -->`
-- CSS : `/* ici le commentaire */`
+- HTML : `<!-- içi le commentaire, dans ce TP, nous avons vu comment ouvrir et fermer un menu grace au popover  -->`
+- CSS : `/* ici le commentaire, dans ce TP, */`
 
 Recherchez sur le site https://developer.mozilla.org/fr/ les pages de documentation de ce qui a été utilisé dans ce TP :
 
