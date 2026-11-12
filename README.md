@@ -1,3 +1,6 @@
+NOM:Boulila PRENOM:Safa
+URL Netlify: 
+
 État initial : le bouton 🍔 ne fait rien, et la <nav> s'affiche en permanence sous le bouton (en double). On cherche à mettre en place un menu avec `popover`.
 
 Pour chaque étape réalisée : faire un commit reprenant le titre.
