@@ -7,33 +7,38 @@
 html:has(.menu:popover-open) {
   overflow: hidden;
 }
+/* Transition pour le bouton du menu */
 .burger {
   cursor: pointer;
 }
 .menu {
+  /* fais une transition de 400ms avec allow-discrete et avec une opacité de 0 */
   transition: 400ms allow-discrete;
   opacity: 0;
 }
-
+/* Ouvre le menu avec une opacité de 1 */
 .menu:popover-open {
   opacity: 1;
 }
+/* Style de départ pour le menu */
 
 @starting-style {
   .menu:popover-open {
     opacity: 0;
   }
 }
+/* Transition pour le bouton de fermeture du menu */
 @starting-style {
   .menu:popover-open .burger--close {
     transform: none;
   }
 }
-
+/* Rotation du bouton de fermeture du menu */
 .menu:popover-open .burger--close {
   transform: rotate(90deg);
   transition: 400ms;
 }
+/* Réduction des mouvements pour les utilisateurs qui préfèrent moins de mouvements */
 @media (prefers-reduced-motion: reduce) {
   .menu,
   .menu .burger--close {

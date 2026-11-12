@@ -206,4 +206,5 @@ Recherchez sur le site https://developer.mozilla.org/fr/ les pages de documentat
 - 'overflow': https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/overflow
 - 'cursor': https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/cursor
 - '@starting-style': https://developer.mozilla.org/fr/docs/Web/CSS/Reference/At-rules/@starting-style
+- 'allow distrecte': https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/transition-behavior
 
